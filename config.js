@@ -5,7 +5,7 @@ const config = {
     Kayden: "164141lc",
     Mason: "Hasard26!",
     Sylis: "Winterbottom",
-    Nick: "",
+    Nick: "Nicholas8029",
   },
 };
 

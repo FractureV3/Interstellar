@@ -1,8 +1,10 @@
 const config = {
   // Password protection. Set challenge to true and add users to require a login.
-  challenge: false,
+  challenge: true,
   users: {
-    interstellar: "password",
+    Key1: "769784392559",
+    Key2: "472926082143",
+    Key3: "776159711562 ",
   },
 
   // Domains the proxy refuses to open. Each entry also blocks its subdomains,
@@ -23,7 +25,7 @@ const config = {
   },
 
   masqr: {
-    enabled: false, // Gate the app behind Masqr unlock tokens. Visitors without a session see the decoy site.
+    enabled: true, // Gate the app behind Masqr unlock tokens. Visitors without a session see the decoy site.
     decoy: "default", // Decoy set under static/decoy/. index.html is the fallback; each domain folder is its own decoy.
     searchTrigger: null, // Prefer the MASQR_SEARCH_TRIGGER env var. Searching this exact text unlocks the site.
     secureCookie: true, // Keep true in production. Chrome also accepts it on http://localhost.

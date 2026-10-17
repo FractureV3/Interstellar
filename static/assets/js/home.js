@@ -48,14 +48,10 @@ if (!inFrame && !navigator.userAgent.includes("Firefox") && store.get("ab") === 
 const SplashT = [
   "Over 8 Million Users since 2023",
   "Fastest growing proxy server",
-  "Made by xBubbo",
-  "Check out discord.gg/interstellar :)",
+  "Made by Kayden S.",
+  "Check out discord.gg/cdmrUAVNyc :)",
   "Thanks for using the site",
-  "Follow us on Tiktok (@useinterstellar)",
-  "Subscribe to us on YouTube (@unblocking)",
-  "Subscribe to my Youtube (@xbubbo)",
   "Check out the settings page",
-  "Check out our Patreon (https://www.patreon.com/gointerstellar)",
 ];
 
 let SplashI = Math.floor(Math.random() * SplashT.length);
